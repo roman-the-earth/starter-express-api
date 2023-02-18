@@ -1,22 +1,22 @@
 {
-  "name": "starter-express-api",
+  "name": "convincers-portal",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+      "dev": "nodemon ./index.js",
+      "ui": "browser-sync start --config bs-config.js",
+      "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cyclic-software/starter-express-api.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cyclic-software/starter-express-api/issues"
+  "devDependencies": {
+      "browser-sync": "^2.27.10",
+      "nodemon": "^2.0.4"
   },
-  "homepage": "https://github.com/cyclic-software/starter-express-api#readme",
   "dependencies": {
-    "express": "^4.17.1"
+      "express": "^4.18.1",
+      "googleapis": "^39.2.0",
+      "pug": "^3.0.2"
   }
 }

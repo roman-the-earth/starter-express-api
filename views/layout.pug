@@ -1,0 +1,25 @@
+block variables
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    link(rel="shortcut icon", href="/favicon.ico")
+    meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
+    meta(name="theme-color", content="#000000")
+    title #{title} | Convincers
+    link(rel="stylesheet" href="/style.css")
+    link(rel="stylesheet" href="/mm-columns.css")
+    link(rel="stylesheet" href="/mm-masonry.css")
+  body
+    div 
+      ul.NavButtons.Sitemenu
+        li.NavButton
+          a(href="/") Home
+        li.NavButton
+          a(href="/gigs") Upcoming Gigs
+        li.NavButton
+          a(href="/booking") Book Us
+        li.NavButton
+          a(href="/gallery") Gallery
+    div#root
+      block layout-content
