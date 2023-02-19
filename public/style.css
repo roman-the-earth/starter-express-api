@@ -16,6 +16,8 @@
   box-sizing: border-box;
 }
 
+@-ms-viewport{ width: device-width; }
+
 html,
 body,
 #root {
